@@ -13,7 +13,7 @@ for (let sub of subs) {
     await sub.build();
     
   } catch (error) {
-console.error("ERR",error);
+console.error("ERROR",error);
     
   }
   break;
